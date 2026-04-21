@@ -12,6 +12,9 @@ import {
 } from "./statesAndEffects/IntroToState";
 import { Person } from "./statesAndEffects/moreState";
 import Clock from "./statesAndEffects/dealWithSideEffects";
+import FunctionalInput from "./classComponents/components/FunctionalInput";
+import ClassInput from "./classComponents/components/ClassInput";
+import "./classComponents/style.css";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -35,9 +38,14 @@ function App() {
     <Form />
     <FeedbackForm />
     <FeedbackForm2 />
-    <Person />*/}
+    <Person />
+    <Clock />*/}
 
-      <Clock />
+      {/* <FunctionalInput name="Functional component!" />
+      <div className="divider" />
+      <ClassInput name="Class based component!" /> */}
+
+
     </>
   );
 }
